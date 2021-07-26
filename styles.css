@@ -1,20 +1,76 @@
+*, html, body, div, article, aside, footer, header, hgroup,
+menu, nav, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+* {
+  font-family: 'Goblin One', cursive;
+}
+
 body {
-  background: #0000ff;
-  #ffff00
+  background: #FFFAFA;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background: #ffff00
+  background: #262626;
+  color: #FFFAFA;
   height: 10%;
+}
+
+button {
+  background-color: #262626;
+  color: #FFFAFA;
 }
 
 nav {
   margin-top: 70px;
 }
 
-img {
-max-width: 5%;
-height: auto;
+.page-info {
+  font-size: 45px;
+}
+.user-data {
+  margin: 15px 14px 0 0;
+  text-align: center;
+}
+
+ .dropdown {
+  height: 20px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.page-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 11px;
+  margin: 0 50px 0 50px;
+}
+
+.episode {
+  background-color: #D3D3D3;
+  border: solid black 2px;
+}
+
+.still {
+  height: 15vh;
+  width: 22vw;
+}
+
+.imdb-link {
+  height: 30px;
 }
