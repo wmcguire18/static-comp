@@ -1,0 +1,20 @@
+body {
+  background: #0000ff;
+  #ffff00
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #ffff00
+  height: 10%;
+}
+
+nav {
+  margin-top: 70px;
+}
+
+img {
+max-width: 5%;
+height: auto;
+}
