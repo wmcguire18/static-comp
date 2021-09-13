@@ -64,6 +64,7 @@ nav {
 .episode {
   background-color: #D3D3D3;
   border: solid black 2px;
+	position: relative;
 }
 
 .still {
@@ -73,4 +74,6 @@ nav {
 
 .imdb-link {
   height: 30px;
+	position: absolute;
+	top: 0;
 }
